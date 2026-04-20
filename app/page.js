@@ -132,8 +132,6 @@ export default function HomePage() {
           <Callout icon={Lightbulb} label="This means:">
             The potential is already there. The next step is to organise and present it better.
           </Callout>
-          <SubHead>Actual branding done, chef samples include:</SubHead>
-          <p>Chef Jean-Pierre (Jean-Pierre Brehier), French chef, TV personality, author, and culinary educator.</p>
           <TwistSlideFooter />
         </section>
 
