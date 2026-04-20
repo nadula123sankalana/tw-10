@@ -45,8 +45,8 @@ export default function HomePage() {
     "What We Observed",
     "The Real Problem",
     "What Needs to Happen First",
-    "Phase 1 – Foundation",
-    "Phase 2 – Organic Growth",
+    "Phase 1 Foundation",
+    "Phase 2 Organic Growth",
     "Content Direction",
     "Website Direction",
     "Campaign Strategy",
@@ -99,7 +99,7 @@ export default function HomePage() {
             is proper attention, cleaner structure, and a stronger online buying journey.
           </p>
           <p>
-            Right now, the brand looks promising—but the online presence is not yet aligned enough to support real
+            Right now, the brand looks promising, but the online presence is not yet aligned enough to support real
             growth.
           </p>
           <SubHead>So the focus should be:</SubHead>
@@ -110,7 +110,7 @@ export default function HomePage() {
             <Li icon={ChevronRight}>Use campaigns to turn that attention into sales</Li>
           </ul>
           <Callout icon={Target} label="Direction:">
-            Not random marketing—structure first, then scale what works.
+            Bring structure first, then scale what works.
           </Callout>
           <TwistSlideFooter />
         </section>
@@ -130,8 +130,7 @@ export default function HomePage() {
             <Li icon={CheckCircle2}>The brand has real-world exposure through tea tasting stalls and activations</Li>
           </ul>
           <Callout icon={Lightbulb} label="This means:">
-            The product is not the problem—the potential is already there. The next step is to organise and present
-            it better.
+            The potential is already there. The next step is to organise and present it better.
           </Callout>
           <TwistSlideFooter />
         </section>
@@ -169,7 +168,7 @@ export default function HomePage() {
             <div className="obs-col">
               <SubHead>Content</SubHead>
               <ul>
-                <Li icon={XCircle}>There are generic videos—more tea-focused content is needed</Li>
+                <Li icon={XCircle}>There are generic videos, and more tea focused content is needed</Li>
                 <Li icon={XCircle}>Tea tasting, flavour-focused, and product-specific reels</Li>
                 <Li icon={XCircle}>Tea preparation and customer reaction moments</Li>
               </ul>
@@ -181,7 +180,7 @@ export default function HomePage() {
             </div>
           </div>
           <Callout icon={Target} label="Website formats to make clearer:">
-            500g packs, 1kg packs, bundle offers, and gifting options—presented as obvious purchase choices.
+            500g packs, 1kg packs, bundle offers, and gifting options, presented as obvious purchase choices.
           </Callout>
           <TwistSlideFooter />
         </section>
@@ -193,7 +192,7 @@ export default function HomePage() {
           <h2 className="slide-title"><AlertTriangle />The Real Problem</h2>
           <p>The problem is not that Calsams lacks a good brand.</p>
           <Callout icon={Target} label="The real problem:">
-            The brand is not getting enough structured attention—and when attention comes, the system is not ready
+            The brand is not getting enough structured attention, and when attention comes, the system is not ready
             enough to convert it.
           </Callout>
           <SubHead>Right now:</SubHead>
@@ -225,7 +224,7 @@ export default function HomePage() {
             <Li icon={CheckCircle2}>Improve the website so it supports purchases better</Li>
           </ul>
           <Callout icon={AlertTriangle} label="Why this order matters:">
-            Attention without structure gets wasted—and campaigns without a proper system become expensive.
+            Attention without structure gets wasted, and campaigns without a proper system become expensive.
           </Callout>
           <TwistSlideFooter />
         </section>
@@ -234,7 +233,7 @@ export default function HomePage() {
         <section className="slide dark slide-footer-brand" id="slide-7">
           <S />
           <p className="slide-label">Slide 7 / 15</p>
-          <h2 className="slide-title"><CalendarCheck />Phase 1 – Foundation (Month 1)</h2>
+          <h2 className="slide-title"><CalendarCheck />Phase 1 Foundation (Month 1)</h2>
           <p>The first month should be about alignment and cleanup.</p>
           <SubHead>Main actions:</SubHead>
           <ul>
@@ -247,7 +246,7 @@ export default function HomePage() {
             <Li icon={CheckCircle2}>Start planning website improvements for better purchase support</Li>
           </ul>
           <Callout icon={Target} label="Goal:">
-            Make the brand look complete and feel active—and prepare the system for growth.
+            Make the brand look complete and feel active, and prepare the system for growth.
           </Callout>
           <TwistSlideFooter />
         </section>
@@ -256,7 +255,7 @@ export default function HomePage() {
         <section className="slide dark slide-footer-brand" id="slide-8">
           <S />
           <p className="slide-label">Slide 8 / 15</p>
-          <h2 className="slide-title"><Sparkles />Phase 2 – Organic Growth (Month 2)</h2>
+          <h2 className="slide-title"><Sparkles />Phase 2 Organic Growth (Month 2)</h2>
           <p>Once the brand is aligned, we focus on organic marketing.</p>
           <SubHead>Main actions:</SubHead>
           <ul>
@@ -268,7 +267,7 @@ export default function HomePage() {
             <Li icon={Zap}>Build more attention around the brand</Li>
           </ul>
           <Callout icon={Target} label="Goal:">
-            Stronger attention, better familiarity, more product awareness, and better engagement quality—this is
+            Stronger attention, better familiarity, more product awareness, and better engagement quality. This is
             where the brand starts becoming more noticeable.
           </Callout>
           <TwistSlideFooter />
@@ -279,7 +278,7 @@ export default function HomePage() {
           <S />
           <p className="slide-label">Slide 9 / 15</p>
           <h2 className="slide-title"><Layers />Content Direction</h2>
-          <p>The content should become much more product-led—not just showing the brand, but what each product is.</p>
+          <p>The content should become much more product led, not just showing the brand, but what each product is.</p>
           <SubHead>Main content areas:</SubHead>
           <ul className="content-areas-list">
             <Li numbered>Individual tea product posts</Li>
@@ -292,7 +291,7 @@ export default function HomePage() {
             <Li numbered>Real customer interaction moments</Li>
           </ul>
           <Callout icon={Target} label="Outcome:">
-            Help people understand the products, remember them, and trust the brand—by showing what each product is,
+            Help people understand the products, remember them, and trust the brand by showing what each product is,
             why it matters, and why someone should buy it.
           </Callout>
           <TwistSlideFooter />
@@ -313,7 +312,7 @@ export default function HomePage() {
             <Li icon={CheckCircle2}>An easier buying flow</Li>
           </ul>
           <Callout icon={Target} label="Principle:">
-            The website should not only tell the brand story—it should help users take action.
+            The website should not only tell the brand story. It should help users take action.
           </Callout>
           <TwistSlideFooter />
         </section>
@@ -323,7 +322,7 @@ export default function HomePage() {
           <S />
           <p className="slide-label">Slide 11 / 15</p>
           <h2 className="slide-title"><Megaphone />Campaign Strategy</h2>
-          <p>Paid campaigns should not come first—they should come after the foundation is ready.</p>
+          <p>Paid campaigns should not come first. They should come after the foundation is ready.</p>
           <SubHead>Month 3 focus:</SubHead>
           <div className="strategy-grid strategy-grid--3col">
             <div className="strategy-item">
@@ -350,7 +349,7 @@ export default function HomePage() {
             </div>
           </div>
           <Callout icon={Zap} label="Sequencing:">
-            Awareness builds the audience; sales convert it—supported by a website that matches the promise.
+            Awareness builds the audience, and sales convert it, supported by a website that matches the promise.
           </Callout>
           <TwistSlideFooter />
         </section>
@@ -361,7 +360,7 @@ export default function HomePage() {
           <p className="slide-label">Slide 12 / 15</p>
           <h2 className="slide-title"><Target />Main Goal</h2>
           <p>
-            The biggest thing Calsams needs right now is attention—not random attention, but proper attention.
+            The biggest thing Calsams needs right now is attention, not random attention, but proper attention.
           </p>
           <SubHead>The kind of attention that helps people:</SubHead>
           <ul>
@@ -371,7 +370,7 @@ export default function HomePage() {
             <Li icon={CheckCircle2}>Purchase</Li>
           </ul>
           <Callout icon={Sparkles} label="So the strategy is:">
-            Build the brand properly first—then grow it. Not only to market the brand, but to structure it for
+            Build the brand properly first, then grow it. Not only to market the brand, but to structure it for
             conversion.
           </Callout>
           <TwistSlideFooter />
@@ -433,7 +432,7 @@ export default function HomePage() {
             strong.
           </p>
           <Callout icon={CheckCircle2} label="What is needed now:">
-            Structure—align the presence, build attention, improve visibility, and then use campaigns to convert that
+            Structure, align the presence, build attention, improve visibility, and then use campaigns to convert that
             into sales. That is where the real growth can happen.
           </Callout>
           <TwistSlideFooter />
