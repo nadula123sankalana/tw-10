@@ -265,9 +265,10 @@ export default function HomePage() {
         </section>
 
         {/* ── Slide 8: Phase 2 – Organic Growth ── */}
-        <section className="slide dark slide-footer-brand" id="slide-8">
+        <section className="slide dark slide-footer-brand slide-split slide-split--image-right" id="slide-8">
           <S />
           <p className="slide-label">Slide 8 / 15</p>
+          <SlideVisual src="/maxresdefault (1).jpg" alt="Chef visual for phase 2 organic growth slide" />
           <h2 className="slide-title"><Sparkles />Phase 2 Organic Growth (Month 2)</h2>
           <p>Once the brand is aligned, we focus on organic marketing.</p>
           <SubHead>Main actions:</SubHead>
