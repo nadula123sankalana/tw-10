@@ -1,0 +1,13 @@
+"use client";
+
+export default function PrintButton() {
+  return (
+    <button
+      className="download-btn"
+      type="button"
+      onClick={() => window.print()}
+    >
+      Download PDF
+    </button>
+  );
+}

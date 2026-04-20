@@ -1,0 +1,9 @@
+node_modules
+.next
+out
+*.log
+
+# Env (secrets — never commit)
+.env
+.env.*
+!.env.example
