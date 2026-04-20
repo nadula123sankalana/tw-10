@@ -37,12 +37,6 @@ const TwistSlideFooter = () => (
   </div>
 );
 
-const SlideVisual = ({ src, alt }) => (
-  <div className="slide-visual">
-    <Image src={src} alt={alt} width={900} height={540} className="slide-visual-image" />
-  </div>
-);
-
 export default function HomePage() {
   const slides = [
     "Cover",
@@ -96,10 +90,9 @@ export default function HomePage() {
         </section>
 
         {/* ── Slide 2: Strategy ── */}
-        <section className="slide dark slide-footer-brand slide-split slide-split--image-right" id="slide-2">
+        <section className="slide dark slide-footer-brand" id="slide-2">
           <S />
           <p className="slide-label">Slide 2 / 15</p>
-          <SlideVisual src="/chef-jean-pierre.jpg" alt="Chef sample image for strategy slide" />
           <h2 className="slide-title"><Compass />Strategy</h2>
           <p>
             The main idea is simple. Calsams already has a good product and a good brand feel. What it needs now
@@ -123,10 +116,9 @@ export default function HomePage() {
         </section>
 
         {/* ── Slide 3: Current Situation ── */}
-        <section className="slide dark slide-footer-brand slide-split slide-split--image-right" id="slide-3">
+        <section className="slide dark slide-footer-brand" id="slide-3">
           <S />
           <p className="slide-label">Slide 3 / 15</p>
-          <SlideVisual src="/Must-Have-Kitchen-Tools-_-Chef-Jean-Pierre.jpg" alt="Chef Jean-Pierre kitchen tools visual for current situation slide" />
           <h2 className="slide-title"><BookOpen />Current Situation</h2>
           <p>There is already something good here.</p>
           <SubHead>What we can see:</SubHead>
@@ -196,12 +188,15 @@ export default function HomePage() {
         </section>
 
         {/* ── Slide 5: The Real Problem ── */}
-        <section className="slide dark slide-footer-brand slide-split slide-split--image-right" id="slide-5">
+        <section className="slide dark slide-footer-brand" id="slide-5">
           <S />
           <p className="slide-label">Slide 5 / 15</p>
-          <SlideVisual src="/maxresdefault.jpg" alt="Chef visual for real problem slide" />
           <h2 className="slide-title"><AlertTriangle />The Real Problem</h2>
           <p>The problem is not that Calsams lacks a good brand.</p>
+          <Callout icon={Target} label="The real problem:">
+            The brand is not getting enough structured attention, and when attention comes, the system is not ready
+            enough to convert it.
+          </Callout>
           <SubHead>Right now:</SubHead>
           <ul>
             <Li icon={XCircle}>The pages need work</Li>
@@ -211,18 +206,13 @@ export default function HomePage() {
           <p>
             Before pushing hard on campaigns, the digital presence needs to be aligned properly.
           </p>
-          <Callout icon={Target} label="The real problem:">
-            The brand is not getting enough structured attention, and when attention comes, the system is not ready
-            enough to convert it.
-          </Callout>
           <TwistSlideFooter />
         </section>
 
         {/* ── Slide 6: What Needs to Happen First ── */}
-        <section className="slide dark slide-footer-brand slide-split slide-split--image-right" id="slide-6">
+        <section className="slide dark slide-footer-brand" id="slide-6">
           <S />
           <p className="slide-label">Slide 6 / 15</p>
-          <SlideVisual src="/hq720.jpg" alt="Chef visual for what needs to happen first slide" />
           <h2 className="slide-title"><LayoutGrid />What Needs to Happen First</h2>
           <p>Before we scale anything, we need to fix the base.</p>
           <SubHead>That means:</SubHead>
@@ -242,10 +232,9 @@ export default function HomePage() {
         </section>
 
         {/* ── Slide 7: Phase 1 – Foundation ── */}
-        <section className="slide dark slide-footer-brand slide-split slide-split--image-right" id="slide-7">
+        <section className="slide dark slide-footer-brand" id="slide-7">
           <S />
           <p className="slide-label">Slide 7 / 15</p>
-          <SlideVisual src="/chef-jean-pierre-is-easily.jpg" alt="Chef visual for phase 1 foundation slide" />
           <h2 className="slide-title"><CalendarCheck />Phase 1 Foundation (Month 1)</h2>
           <p>The first month should be about alignment and cleanup.</p>
           <SubHead>Main actions:</SubHead>
@@ -265,10 +254,9 @@ export default function HomePage() {
         </section>
 
         {/* ── Slide 8: Phase 2 – Organic Growth ── */}
-        <section className="slide dark slide-footer-brand slide-split slide-split--image-right" id="slide-8">
+        <section className="slide dark slide-footer-brand" id="slide-8">
           <S />
           <p className="slide-label">Slide 8 / 15</p>
-          <SlideVisual src="/maxresdefault (1).jpg" alt="Chef visual for phase 2 organic growth slide" />
           <h2 className="slide-title"><Sparkles />Phase 2 Organic Growth (Month 2)</h2>
           <p>Once the brand is aligned, we focus on organic marketing.</p>
           <SubHead>Main actions:</SubHead>
